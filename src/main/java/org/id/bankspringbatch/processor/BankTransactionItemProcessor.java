@@ -1,4 +1,4 @@
-package org.id.bankspringbatch;
+package org.id.bankspringbatch.processor;
 
 import org.id.bankspringbatch.dao.BankTransaction;
 import org.springframework.batch.item.ItemProcessor;

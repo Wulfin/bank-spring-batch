@@ -1,4 +1,4 @@
-package org.id.bankspringbatch;
+package org.id.bankspringbatch.processor;
 
 import lombok.Getter;
 import org.id.bankspringbatch.dao.BankTransaction;

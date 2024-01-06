@@ -4,7 +4,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Transient;
 import lombok.*;
-import lombok.experimental.SuperBuilder;
 
 import java.util.Date;
 
@@ -14,7 +13,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class BantTransaction {
+public class BankTransaction {
     @Id
     private Long id;
     private long accountID;
